@@ -3,19 +3,19 @@ import { slot4BrandConfig } from '@/editable/theme/brand.config'
 export const pagesContent = {
   home: {
     metadata: {
-      title: 'Stories, visuals, and discoverable content',
-      description: 'Explore articles, images, listings, and curated posts through a cleaner reading-first experience.',
-      openGraphTitle: 'Stories, visuals, and discoverable content',
-      openGraphDescription: 'Discover articles, visual posts, and connected content through a calmer reading-first experience.',
-      keywords: ['story platform', 'article site', 'visual content', 'content discovery'],
+      title: 'Classified offers, services, jobs, and rentals',
+      description: 'Browse classified products, services, jobs, rentals, and wanted ads on detekinasai.',
+      openGraphTitle: 'Classified offers, services, jobs, and rentals',
+      openGraphDescription: 'Discover current classified offers, wanted ads, services, jobs, and rentals on detekinasai.',
+      keywords: ['classified ads', 'services', 'jobs', 'rentals', 'wanted ads'],
     },
     hero: {
-      badge: 'Latest stories and visuals',
-      title: ['A thoughtful home for', 'stories, visuals, and discovery.'],
-      description: 'Explore fresh articles, image-led posts, and discoverable content across the platform through a calmer and clearer browsing experience.',
-      primaryCta: { label: 'Read latest stories', href: '/article' },
-      secondaryCta: { label: 'Explore visuals', href: '/image' },
-      searchPlaceholder: 'Search stories, visuals, listings, and more',
+      badge: 'Latest classified offers',
+      title: ['Find useful offers,', 'services, jobs, and rentals.'],
+      description: 'Browse current classified listings and connect with the people offering what you need.',
+      primaryCta: { label: 'Browse classifieds', href: '/classified' },
+      secondaryCta: { label: 'Post a classified', href: '/create' },
+      searchPlaceholder: 'Search classified listings',
       focusLabel: 'Focus',
       featureCardBadge: 'latest cover rotation',
       featureCardTitle: 'Latest posts shape the visual identity of the homepage.',
@@ -41,9 +41,9 @@ export const pagesContent = {
     },
     cta: {
       badge: 'Start exploring',
-      title: 'Explore articles, visuals, and resources through one connected experience.',
-      description: 'Move between articles, image-led posts, listings, and resources through one clearer and more connected visual system.',
-      primaryCta: { label: 'Browse Articles', href: '/article' },
+      title: 'Find or publish a useful classified listing.',
+      description: 'Browse products, services, jobs, rentals, and wanted ads through one focused marketplace.',
+      primaryCta: { label: 'Browse Classifieds', href: '/classified' },
       secondaryCta: { label: 'Contact Sales', href: '/contact' },
     },
     taskSection: {
@@ -96,22 +96,22 @@ export const pagesContent = {
   },
   create: {
     metadata: {
-      title: 'Create',
-      description: 'Create and submit new content for the site.',
+      title: 'Post a classified',
+      description: 'Create and submit a classified listing.',
     },
     locked: {
       badge: 'Creator access',
-      title: 'Login to create new content.',
-      description: 'Use your account to open the publishing workspace and create posts for the active sections of this site.',
+      title: 'Login to post a classified.',
+      description: 'Use your account to open the classified publishing form and submit your listing.',
     },
     hero: {
-      badge: 'Publishing workspace',
-      title: 'Create content for every active section.',
-      description: 'Choose the content type, add details, and prepare a clean post with images, links, summary, and body content.',
+      badge: 'Classified publishing',
+      title: 'Create a useful classified listing.',
+      description: 'Add accurate details, an image, a summary, and a complete description for your classified.',
     },
     formTitle: 'Content details',
-    submitLabel: 'Submit content',
-    successTitle: 'Content submitted successfully.',
+    submitLabel: 'Submit classified',
+    successTitle: 'Classified submitted successfully.',
   },
   auth: {
     login: {
