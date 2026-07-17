@@ -32,7 +32,7 @@ const getImages = (post: SitePost) => {
   return [...media, ...images, ...(isUrl(image) ? [image] : []), ...(isUrl(logo) ? [logo] : [])].filter(Boolean).slice(0, 8)
 }
 
-const placeholder = '/placeholder.svg?height=900&width=1200'
+const placeholder = '/favicon.png?v=20260413'
 const getImage = (post: SitePost) => getImages(post)[0] || placeholder
 const getCategory = (post: SitePost, fallback: string) => asText(getContent(post).category) || post.tags?.[0] || fallback
 // Reduce any content payload — rich HTML, entity-encoded HTML, or plain text — to a clean
